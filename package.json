@@ -1,0 +1,21 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "this is for development propose",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul_Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.6.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-nlp": "^4.23.2",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
